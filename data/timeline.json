@@ -1,5 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "DESKTOP-RCF8EEQ",
+    "children" : [ {
+      "name" : "6348@DESKTOP-RCF8EEQ.Test worker(12)",
+      "children" : [ {
+        "name" : "Проверка, что в запросах к списку счетов account_id не пустой",
+        "uid" : "ef53ef92dc93ff96",
+        "parentUid" : "7cbe2839966baa13b0ef960d15ef382e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587510934856,
+          "stop" : 1587510941601,
+          "duration" : 6745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка, что результатов поиска больше 1000",
+        "uid" : "e8e63f601451dbc1",
+        "parentUid" : "7cbe2839966baa13b0ef960d15ef382e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587510941659,
+          "stop" : 1587510953860,
+          "duration" : 12201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cbe2839966baa13b0ef960d15ef382e"
+    } ],
+    "uid" : "016eaa677e1aa7a25f55380cc5f059af"
+  } ]
 }

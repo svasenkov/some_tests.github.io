@@ -1,0 +1,158 @@
+{
+  "uid" : "ef53ef92dc93ff96",
+  "name" : "Проверка, что в запросах к списку счетов account_id не пустой",
+  "fullName" : "tests.ApiTests.accountsTest",
+  "historyId" : "c2293e33044c25b38c3081bddcd7be21",
+  "time" : {
+    "start" : 1587510934856,
+    "stop" : 1587510941601,
+    "duration" : 6745
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "150b551c0406a2e8",
+      "name" : "Request",
+      "source" : "150b551c0406a2e8.html",
+      "type" : "text/html",
+      "size" : 255
+    }, {
+      "uid" : "88cbda176707151f",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "88cbda176707151f.html",
+      "type" : "text/html",
+      "size" : 5450
+    }, {
+      "uid" : "e7299e9350400aa6",
+      "name" : "Request",
+      "source" : "e7299e9350400aa6.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "c618ae3ed2ba86d6",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c618ae3ed2ba86d6.html",
+      "type" : "text/html",
+      "size" : 1204
+    }, {
+      "uid" : "ee5c102e6a3c488d",
+      "name" : "Request",
+      "source" : "ee5c102e6a3c488d.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "6d5e6b2b1aa530da",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "6d5e6b2b1aa530da.html",
+      "type" : "text/html",
+      "size" : 1202
+    }, {
+      "uid" : "7b349b5af3182152",
+      "name" : "Request",
+      "source" : "7b349b5af3182152.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "eda23eee20b3ca1c",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "eda23eee20b3ca1c.html",
+      "type" : "text/html",
+      "size" : 1206
+    }, {
+      "uid" : "3e3e17bc176ffe2f",
+      "name" : "Request",
+      "source" : "3e3e17bc176ffe2f.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "1304d11346aa33cf",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "1304d11346aa33cf.html",
+      "type" : "text/html",
+      "size" : 1204
+    }, {
+      "uid" : "349e5d8ccd55e6fd",
+      "name" : "Request",
+      "source" : "349e5d8ccd55e6fd.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "386858857a57809f",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "386858857a57809f.html",
+      "type" : "text/html",
+      "size" : 1204
+    }, {
+      "uid" : "6c27ec26bb5a208c",
+      "name" : "Request",
+      "source" : "6c27ec26bb5a208c.html",
+      "type" : "text/html",
+      "size" : 273
+    }, {
+      "uid" : "2ee66eccef0b9496",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "2ee66eccef0b9496.html",
+      "type" : "text/html",
+      "size" : 1204
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 14
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "story",
+    "value" : "Тестовое задание API"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RCF8EEQ"
+  }, {
+    "name" : "thread",
+    "value" : "6348@DESKTOP-RCF8EEQ.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.ApiTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ApiTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "accountsTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.ApiTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "ef53ef92dc93ff96.json",
+  "parameterValues" : [ ]
+}

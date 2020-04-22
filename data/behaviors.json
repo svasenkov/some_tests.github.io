@@ -1,5 +1,39 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Тестовое задание API",
+    "children" : [ {
+      "name" : "Проверка, что в запросах к списку счетов account_id не пустой",
+      "uid" : "ef53ef92dc93ff96",
+      "parentUid" : "9cb92478c261a147dd096b9db2376690",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587510934856,
+        "stop" : 1587510941601,
+        "duration" : 6745
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9cb92478c261a147dd096b9db2376690"
+  }, {
+    "name" : "Тестовое задание GUI",
+    "children" : [ {
+      "name" : "Проверка, что результатов поиска больше 1000",
+      "uid" : "e8e63f601451dbc1",
+      "parentUid" : "3d0fd1378e9fe26536955db5861b2348",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587510941659,
+        "stop" : 1587510953860,
+        "duration" : 12201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d0fd1378e9fe26536955db5861b2348"
+  } ]
 }

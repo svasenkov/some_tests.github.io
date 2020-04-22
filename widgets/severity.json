@@ -1,1 +1,21 @@
-[ ]
+[ {
+  "uid" : "ef53ef92dc93ff96",
+  "name" : "Проверка, что в запросах к списку счетов account_id не пустой",
+  "time" : {
+    "start" : 1587510934856,
+    "stop" : 1587510941601,
+    "duration" : 6745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8e63f601451dbc1",
+  "name" : "Проверка, что результатов поиска больше 1000",
+  "time" : {
+    "start" : 1587510941659,
+    "stop" : 1587510953860,
+    "duration" : 12201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

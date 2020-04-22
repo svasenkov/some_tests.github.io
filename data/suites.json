@@ -1,5 +1,39 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "tests.ApiTests",
+    "children" : [ {
+      "name" : "Проверка, что в запросах к списку счетов account_id не пустой",
+      "uid" : "ef53ef92dc93ff96",
+      "parentUid" : "8dbcc476e6cc179c393ab145eea6ef4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587510934856,
+        "stop" : 1587510941601,
+        "duration" : 6745
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8dbcc476e6cc179c393ab145eea6ef4c"
+  }, {
+    "name" : "tests.UiTests",
+    "children" : [ {
+      "name" : "Проверка, что результатов поиска больше 1000",
+      "uid" : "e8e63f601451dbc1",
+      "parentUid" : "c99d7ab4cf202e1129ca11d95a7d9bec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587510941659,
+        "stop" : 1587510953860,
+        "duration" : 12201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c99d7ab4cf202e1129ca11d95a7d9bec"
+  } ]
 }

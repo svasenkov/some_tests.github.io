@@ -1,4 +1,26 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 2,
+  "items" : [ {
+    "uid" : "9cb92478c261a147dd096b9db2376690",
+    "name" : "Тестовое задание API",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3d0fd1378e9fe26536955db5861b2348",
+    "name" : "Тестовое задание GUI",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

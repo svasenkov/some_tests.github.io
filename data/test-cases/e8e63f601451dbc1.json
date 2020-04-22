@@ -1,0 +1,158 @@
+{
+  "uid" : "e8e63f601451dbc1",
+  "name" : "Проверка, что результатов поиска больше 1000",
+  "fullName" : "tests.UiTests.searchTest",
+  "historyId" : "500a431673ad17f7cf9af1e520fb657d",
+  "time" : {
+    "start" : 1587510941659,
+    "stop" : 1587510953860,
+    "duration" : 12201
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://yandex.ru",
+      "time" : {
+        "start" : 1587510941729,
+        "stop" : 1587510948376,
+        "duration" : 6647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"#text\") val(text)",
+      "time" : {
+        "start" : 1587510948425,
+        "stop" : 1587510949971,
+        "duration" : 1546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"#text\") press enter()",
+      "time" : {
+        "start" : 1587510949971,
+        "stop" : 1587510950441,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\".serp-adv__found\") should have(text 'млн результатов')",
+      "time" : {
+        "start" : 1587510950441,
+        "stop" : 1587510952148,
+        "duration" : 1707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5d4d3a3969a4fdb8",
+      "name" : "Last screenshot",
+      "source" : "5d4d3a3969a4fdb8.png",
+      "type" : "image/png",
+      "size" : 186218
+    }, {
+      "uid" : "a823bdd6d17bfd6a",
+      "name" : "Page source",
+      "source" : "a823bdd6d17bfd6a.html",
+      "type" : "text/plain",
+      "size" : 314833
+    }, {
+      "uid" : "f24a5878a35a449f",
+      "name" : "Browser console logs",
+      "source" : "f24a5878a35a449f.txt",
+      "type" : "text/plain",
+      "size" : 2215
+    }, {
+      "uid" : "57489eb097b97814",
+      "name" : "Video",
+      "source" : "57489eb097b97814.html",
+      "type" : "text/html",
+      "size" : 197
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "story",
+    "value" : "Тестовое задание GUI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RCF8EEQ"
+  }, {
+    "name" : "thread",
+    "value" : "6348@DESKTOP-RCF8EEQ.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.UiTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UiTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UiTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ui" ]
+  },
+  "source" : "e8e63f601451dbc1.json",
+  "parameterValues" : [ ]
+}
